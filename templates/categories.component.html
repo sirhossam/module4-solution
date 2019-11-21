@@ -1,0 +1,6 @@
+<div class="categories">
+    <a ng-repeat='category in $ctrl.list'
+     ui-sref="items({categoryID: category.short_name})">
+        &#9832 {{category.name}}
+    </a>
+</div>

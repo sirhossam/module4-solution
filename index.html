@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <title> solution for Module 4 assignment </title>
+</head>
+
+<body ng-app="MenuApp">
+
+  <ui-view></ui-view>
+
+  <!-- angular main core -->
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular-ui-router.min.js"></script>
+  <!-- modules -->
+  <script src="src/module/data.module.js"></script>
+  <script src="src/module/menuApp.module.js"></script>
+  <!-- route -->
+  <script src="routes.js"></script>
+  <!-- services -->
+  <script src="src/services/menuData.service.js"></script>
+  <!-- controllers -->
+  <script src="src/controllers/categories.controller.js"></script>
+  <script src="src/controllers/items.controller.js"></script>
+  <!-- components -->
+  <script src="src/component/categories.component.js"></script>
+  <script src="src/component/items.component.js"></script>
+</body>
+</html>
